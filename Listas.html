@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		    overflow: hidden;
+		    background-color: #333333;
+		}
+
+		li {
+		    float: left;
+		}
+
+		li a {
+		    display: block;
+		    color: white;
+		    text-align: center;
+		    padding: 16px;
+		    text-decoration: none;
+		}
+
+		li a:hover {
+		    background-color: #111111;
+		}
+
+		.city {
+		    background-color: tomato;
+		    color: white;
+		    padding: 10px;
+		} 
+		
+		</style>
+
+	</head>
+	<body>
+
+		<ul>
+		  <li><a href="#home">Home</a></li>
+		  <li><a href="#news">News</a></li>
+		  <li><a href="#contact">Contact</a></li>
+		  <li><a href="#about">About</a></li>
+		</ul>
+		<br>
+		<div>Hello</div><!--contenedor -->
+
+		<div>World</div>
+		
+		<div style="background-color:black;color:white;padding:20px;">
+		  <h2>London</h2>
+		  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+		</div>
+		<br>
+
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/ByfFurjQDb0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+		</iframe>
+
+		<br>
+		<h2 class="city">London</h2>
+		<p>London is the capital of England.</p>
+
+		<h2 class="city">Paris</h2>
+		<p>Paris is the capital of France.</p>
+
+		<h2 class="city">Tokyo</h2>
+		<p>Tokyo is the capital of Japan.</p>
+		<br>
+		
+		<!--SE RECOMIENDA QUE LAS VARIABLES SEAN EN INGLES -->
+		<form action="recibir.html" method="post">
+			<fieldset>
+			  First name:<br>
+			  <input type="text" name="firstname" placeholder="Type your Name"><br> <!--Es aconsejable que tengan id para el uso posterior de la base de datos-->
+			  Last name:<br>
+			  <input type="text" name="lastname" placeholder="Type your LastName"> <br>
+				M
+			  <input type="radio" name="sexoM">
+				F
+				<input type="radio" name="sexoF"> <br>
+					Email <br>
+				<input type="text"> <br> 
+					Password <br>
+				<input type="password" name="pass"> <br>
+					Birthday <br>
+				<input type="date" name="bday"> <br>
+
+				<button type="reset">Reset</button>
+				<button>Guardar</button>
+				 
+				<br> <br>
+			
+			<label for="cars">Vehiculos</label>	
+			<select name="cars">
+				<option value="fiat" selected>Seleccione</option>
+				  <option value="volvo">Volvo</option>
+				  <option value="saab">Saab</option>
+				  <option value="fiat">Fiat</option>
+				  <option value="audi">Audi</option>
+			</select> <br>
+			<br>
+			Select a file: <input type="file" name="myFile"> <br> <br>
+			<input type="search" name="googlesearch"> <br> <br>
+
+			<input type="checkbox" name="vehicle1" value="Bike"> I have a bike <br>
+	  		<input type="checkbox" name="vehicle2" value="Car"> I have a car <br>
+
+			<textarea name="message" rows="10" cols="30">
+			Description: 
+			</textarea>
+			
+			</fieldset>
+		</form>
+		
+		
+		</body>
+</html>

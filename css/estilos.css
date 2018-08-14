@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+	background-color: lightblue;
+	background-image: url(../img/pluma.jpg);
+	background-repeat: no-repeat;
+	margin: auto;
+	background-position: center;
+	width: 900px;
+
+}
+
+h1{
+	color:white;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center; 
+	background-color: lightblue;
+	font-size: 45px;
+	font-family: monospace;
+
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: monospace;
+}
+
+div{
+	width: 750px;
+	height:100px; 
+    border: 25px solid #5d4968;
+    padding: 25px;
+    margin: 25px;
+    font-family: monospace;
+    font-size: 15px;
+   
+}
+
+p{
+	text-align: center;
+	color: white;	
+	background-color: tomato;
+	font-size: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	font-family: monospace;
+
+}
+
+ul.a{
+	font-size: 25px;
+	font-family: monospace;
+	 
+}
+
+.right {
+    position: absolute;
+    right: 25px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="esp">
+	<head>
+		<meta charset="UTF-8">
+		<title>Contacto</title>
+		<style  > 
+				nav{ /* Estilos del Cabecero*/
+					text-align: right;
+					list-style-type: none;
+				    margin: 0;
+				    padding: 25px;
+				    overflow: hidden;
+				    color: #42bcf4;
+				    font-family:verdana;
+				     background-color: #ffffff;
+				    font-size: 20px;
+				    } /* */
+
+				nav a {
+					text-align: right;
+					color: #42bcf4;
+				    padding: 10px;
+				    text-decoration: none;
+
+				}
+				nav a:hover {
+					text-align: right;
+					color: #a5acaf;
+				}
+				
+				.title1 { /* Estilos del Titulo de la Pagina Principal*/
+					font-family:verdana;
+					background-color: #258f9b;
+					padding: 15px; 
+					color: #ffffff;
+					
+
+				}
+				.text{
+					font-family:verdana;
+				}
+		</style> 		
+	</head>
+	
+	<header>
+			<nav> <!--Inicio del Cabecero -->
+				<img src="./imgs/logo.png" alt="agreement" style="float:left; margin-left: 0pt; margin-top: 10pt width:50px;height:50px;border:0;">
+				<a href="inicio.html">Inicio</a> |
+				<a href="empresa.html">La Empresa</a> |
+				<a href="productos.html">Productos y Servicios</a> |
+				<a href="contacto.html">Contactos</a> |
+			</nav> <!--Fin del Cabecero -->
+	</header>
+	<body style="background-color:#d2f7ea;">
+		<div >
+		
+			<div align="center"><h1 class="title1">Contáctanos</h1></div><br>
+			<p class="text">Comunícate con nosotros y nos pondremos en contacto contigo tan pronto como nos sea posible.  ¡Esperamos tener noticias tuyas!</p>
+		<form class="form" action="recibir.html" method="post" target="_blank" align="center">
+			<br>
+			
+			<br>
+			<br>
+			<br>
+			<br>	
+			<input type="text" name="firstname" placeholder="Name" size="35" maxlength="40" style="width:300px; height:30px">    &nbsp; &nbsp;      <input type="text" name="lastname" placeholder="Apellido" size="35" maxlength="40" style="width:300px; height:30px">      &nbsp; &nbsp;    <input type="Email" name="email" placeholder="Email" size="35" maxlength="30" style="width:300px; height:30px">
+			<br>
+			<br>		
+			<br>
+			<textarea name="msg" id="msg" cols="134" rows="10" placeholder="Mensaje"></textarea>
+			<br>
+			<br>
+			<label for="service">Tipo de Servicio y Productos</label>	
+			<select name="service">
+				<option value="fiat" selected>Seleccione</option>
+				  <option value="volvo">Internet Hogar</option>
+				  <option value="saab">Internet Empresarial</option>
+				  <option value="fiat">Internet Dedicado</option>
+				  <option value="audi">Productos Mikrotik o Ubiquiti</option>
+			</select> <br>
+			<br>
+			<input type="file" name="myFile"> <br> <br>
+			<br>
+			<button  style="background-color:#3179ed;color:white;width:150px; height:45px" oneclick="alert('En breve le Responderemos!)">Enviar Mensaje</button> 
+		
+		</form>	
+		</div>
+	</body>
+	f
+</html>
